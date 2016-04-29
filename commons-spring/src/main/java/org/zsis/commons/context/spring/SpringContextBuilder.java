@@ -19,8 +19,8 @@ package org.zsis.commons.context.spring;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
-import org.zsis.commons.core.context.IContext;
-import org.zsis.commons.core.context.IContextBuilder;
+import org.ps.commons.core.context.IContext;
+import org.ps.commons.core.context.IContextBuilder;
 
 /**
  * TODO (dynamic 04/06/2013) - javadoc

@@ -19,10 +19,10 @@ package org.zsis.commons.context.spring;
 
 import org.springframework.beans.factory.NoSuchBeanDefinitionException;
 import org.springframework.context.ApplicationContext;
-import org.zsis.commons.core.context.ContextException;
-import org.zsis.commons.core.context.DefaultContext;
-import org.zsis.commons.core.context.IEntry;
-import org.zsis.commons.core.context.ObjectNotFoundContextException;
+import org.ps.commons.core.context.ContextException;
+import org.ps.commons.core.context.DefaultContext;
+import org.ps.commons.core.context.IEntry;
+import org.ps.commons.core.context.ObjectNotFoundContextException;
 
 /**
  * TODO (dynamic 04/06/2013) - javadoc

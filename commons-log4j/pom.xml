@@ -6,7 +6,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<groupId>org.zsis.commons</groupId>
+		<groupId>org.ps.commons</groupId>
 		<artifactId>commons-parent</artifactId>
 		<version>1.0</version>
 	</parent>
@@ -14,7 +14,7 @@
 	<artifactId>commons-log4j</artifactId>
 	<version>${version.artifacts}</version>
 
-	<name>Z Sistemas: commons-log4j</name>
+	<name>${project.organization.name}: ${project.artifactId}</name>
 
 	<dependencies>
 		<dependency>
@@ -34,7 +34,7 @@
 		</dependency>
 
 		<dependency>
-			<groupId>org.zsis.commons</groupId>
+			<groupId>org.ps.commons</groupId>
 			<artifactId>commons-core</artifactId>
 			<version>${version.artifacts}</version>
 		</dependency>

@@ -11,12 +11,18 @@
 		<version>1.0</version>
 	</parent>
 
-	<artifactId>commons-core</artifactId>
+	<artifactId>commons-hibernate</artifactId>
 	<version>${version.artifacts}</version>
 
 	<name>${project.organization.name}: ${project.artifactId}</name>
 
 	<dependencies>
+		<dependency>
+			<groupId>org.ps.commons</groupId>
+			<artifactId>commons-core</artifactId>
+            <version>${version.artifacts}</version>
+		</dependency>
+
 		<dependency>
 			<groupId>org.jmock</groupId>
 			<artifactId>jmock-junit4</artifactId>
@@ -25,8 +31,7 @@
 
 		<dependency>
 			<groupId>org.slf4j</groupId>
-			<artifactId>jcl-over-slf4j</artifactId>
-		</dependency>
+			<artifactId>jcl-over-slf4j</artifactId> </dependency>
 
 		<dependency>
 			<groupId>org.slf4j</groupId>

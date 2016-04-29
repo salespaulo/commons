@@ -4,18 +4,18 @@
 
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>org.zsis.commons</groupId>
+	<groupId>org.ps.commons</groupId>
 	<artifactId>commons-parent</artifactId>
 	<packaging>pom</packaging>
 	<version>1.0</version>
 
-	<name>Z Sistemas: commons-parent</name>
-	<url>http://www.zsistemas.com.br/commons</url>
+	<name>${project.organization.name}: commons-parent</name>
+	<url>http://www.ps.org/commons</url>
 	<inceptionYear>2012</inceptionYear>
 
 	<organization>
-		<name>Z Sistemas Ltda ME</name>
-		<url>http://www.zsistemas.com.br</url>
+		<name>ORG PS</name>
+		<url>http://www.ps.org</url>
 	</organization>
 
 	<properties>
@@ -259,7 +259,7 @@
 					<archive>
 						<manifest>
 							<addClasspath>true</addClasspath>
-							<mainClass>org.zsis.commons.ui.swing.commonsSwingApp</mainClass>
+							<mainClass>org.ps.commons.ui.swing.commonsSwingApp</mainClass>
 							<classpathPrefix>dependency-jars/</classpathPrefix>
 						</manifest>
 					</archive>
@@ -401,6 +401,6 @@
 		<module>commons-core</module>
 		<module>commons-spring</module>
 		<module>commons-log4j</module>
-		<module>commons-jpa</module>
+		<module>commons-hibernate</module>
 	</modules>
 </project>
