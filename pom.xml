@@ -401,5 +401,6 @@
 		<module>commons-core</module>
 		<module>commons-spring</module>
 		<module>commons-log4j</module>
+		<module>commons-jpa</module>
 	</modules>
 </project>
